@@ -1,0 +1,320 @@
+a.v-list-item.v-list-item--link.theme--light {
+    text-decoration: none;
+}
+
+.theme--light.v-list-item--active:hover::before,
+.theme--light.v-list-item--active::before {
+    opacity: 0.2;
+}
+
+.v-application--is-ltr .v-list-item__action:first-child,
+.v-application--is-ltr .v-list-item__icon:first-child {
+    margin-right: 15px;
+}
+
+a.children.v-list-item.v-list-item--link.theme--light {
+    margin-left: 5px;
+}
+
+.content.subcription .row.no-gutters {
+    margin: 0 35px;
+}
+
+.menu-notif.v-card.v-sheet.theme--light p.text-justify {
+    padding: 0 20px;
+}
+
+.v-list.menu-list.v-sheet.v-sheet--tile.theme--light {
+    margin-right: 70px;
+}
+
+.v-content__wrap {
+    background-color: #F2F3F8;
+}
+
+header.v-sheet.v-sheet--tile.theme--dark.v-toolbar.v-app-bar.v-app-bar--clipped.v-app-bar--fixed.purple.darken-3 {
+    background-color: #ffffff !important;
+
+    .v-toolbar__content {
+        padding: 0;
+
+        .v-toolbar__title.head-nav-logo {
+            width: 256px;
+            background-color: #282a3c;
+            height: 64px;
+
+            button.v-app-bar__nav-icon.burger-menu.v-btn.v-btn--flat.v-btn--icon.v-btn--round.theme--dark.v-size--default {
+                display: inline-block;
+                float: right;
+
+                i.v-icon.notranslate.mdi.mdi-menu.theme--dark {
+                    height: 40px;
+                    font-size: 40px;
+                    width: 40px;
+                    margin-top: 12px;
+                }
+            }
+
+            .v-responsive.v-image {
+                display: inline-block;
+                margin-top: 11px;
+                margin-left: 20px;
+            }
+        }
+
+
+
+        .row {
+            margin: 0 0 0 0px;
+
+            .text-left {
+                margin-top: 6px;
+                margin-left: 10px;
+
+                button.v-btn.v-btn--contained.theme--dark.v-size--default.primary {
+                    background: transparent !important;
+                    color: #676c7b;
+                    box-shadow: none;
+                    border: none;
+
+                    span.my-account-inside {
+                        margin: 0 10px;
+                        text-transform: initial;
+                    }
+
+                    span.my-account-inside:hover {
+                        color: #716aca;
+                    }
+                }
+
+                button.v-btn.v-btn--contained.theme--dark.v-size--default.primary:focus {
+                    background: transparent !important;
+                }
+
+                .v-btn:not(.v-btn--text):not(.v-btn--outlined):hover:before {
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}
+
+.tops-header-mobiles {
+    background-color: transparent;
+    margin-top: 3px;
+
+    // padding: 10px 0px 10px 10px;
+    .theme--light.v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+        background-color: transparent;
+        float: right;
+        box-shadow: none;
+
+        i.v-icon.notranslate.fas.fa-bars.theme--light {
+            color: #ffffff;
+            left: 5px;
+            top: 2px;
+        }
+    }
+}
+
+.vue-simple-drawer.left{
+    background: #2c2e3e;
+    height: 100vh;
+    width: 300px;
+    a.v-list-item.v-list-item--link.theme--light{
+        padding: 0;
+        i.v-icon.notranslate.mdi.theme--light{
+            color: #ffffff;
+        }
+        .v-list-item__content{
+            color: #ffffff;
+            text-align: left;
+        }
+    }
+    a.v-list-item--active.v-list-item.v-list-item--link.theme--light{
+        background-color: transparent;
+        color: transparent;
+    }
+    .management{
+        p{
+            margin-top: 16px;
+            text-align: left;
+        }
+    }
+    .v-list-group__header.v-list-item.v-list-item--link.theme--light{
+        padding-left: 0;
+        i.v-icon.notranslate.mdi.mdi-cast.theme--light{
+            color: #ffffff;
+        }
+        .v-list-item__title{
+            color: #ffffff;
+            text-align: left;
+        }
+        i.v-icon.notranslate.mdi.mdi-chevron-up.theme--light,
+        i.v-icon.notranslate.mdi.mdi-chevron-down.theme--light:before{
+            color: #ffffff;
+        }
+    }
+    .close-btn {
+        .leftright,
+        .rightleft{
+            background-color: #ffffff;
+        }
+    }
+}
+
+nav.v-navigation-drawer.v-navigation-drawer--absolute.v-navigation-drawer--open.theme--light {
+    background: #2c2e3e;
+    position: fixed;
+    z-index: 1000;
+
+    .v-navigation-drawer__content {
+
+        // margin-top: 40px;
+        .v-list.v-sheet.theme--light.v-list--dense {
+            .tops-header {
+                background-color: #282a3c;
+                height: 65px;
+                padding-top: 2px;
+
+                // padding: 10px 0px 10px 10px;
+                .theme--light.v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+                    background-color: transparent;
+                    float: right;
+                    box-shadow: none;
+                    margin-right: 10px;
+
+                    i.v-icon.notranslate.fas.fa-bars.theme--light {
+                        color: #ffffff;
+                        left: 5px;
+                        top: 2px;
+                    }
+                }
+            }
+
+            .menus-lefts {
+                margin-top: 38px;
+
+                .management {
+                    padding: 18px 30px;
+                    margin-top: 15px;
+
+                    p {
+                        margin-bottom: 0;
+                        font-size: 12px;
+                        color: #868aa8;
+                    }
+                }
+            }
+        }
+
+        a.v-list-item--active.v-list-item.v-list-item--link.theme--light {
+            color: #716aca;
+            padding: 0 30px;
+
+            i.v-icon.notranslate.mdi.theme--light {
+                color: #716aca;
+            }
+        }
+
+        .v-list .v-list-item--active{
+            padding: 0 30px;
+        }
+
+        .theme--light.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
+            padding: 0 30px;
+            color: #868aa8 !important;
+        }
+
+        i.v-icon.notranslate.mdi.theme--light,
+        i.v-icon.notranslate.material-icons.theme--light {
+            color: #868aa8;
+        }
+    }
+}
+
+.v-list.list-menu-my-acc.v-sheet.v-sheet--tile.theme--light {
+    width: 275px;
+
+    a.theme--light.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled),
+    .v-list-item--active.v-list-item.v-list-item--link.theme--light {
+        padding: 0 20px;
+
+        .v-icon.v-icon {
+            margin-right: 10px;
+        }
+
+        span {
+            position: relative;
+        }
+    }
+}
+
+.menu-notif.v-card.v-sheet.theme--light {
+    .v-list.v-sheet.v-sheet--tile.theme--light {
+        .header {
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+
+    hr {
+        margin: 0px 0;
+    }
+
+    .inside-onclick-notif {
+        .content-inside {
+            display: table;
+            vertical-align: middle;
+            height: 100%;
+            width: 100%;
+
+            .centered {
+                vertical-align: middle;
+                display: table-cell;
+                height: 100%;
+            }
+        }
+    }
+}
+
+.acc-top-right {
+    span {
+        margin-left: 10px;
+        // top: 2px;
+        position: relative;
+        font-size: 13px;
+    }
+}
+
+.m-widget17 .m-widget17__stats .m-widget17__items .m-widget17__item .m-widget17__icon {
+    margin-bottom: -20px;
+}
+
+.m-widget27 .m-widget27__container .m-widget27__nav-items {
+    padding-left: 0;
+
+    li.m-widget27__nav-item.nav-item {
+        display: table;
+        vertical-align: middle;
+        height: 100px;
+        width: 100%;
+
+        a.nav-link,
+        a.nav-link.active {
+            vertical-align: middle;
+            display: table-cell;
+        }
+    }
+}
+
+nav.v-navigation-drawer.v-navigation-drawer--absolute.v-navigation-drawer--mini-variant.v-navigation-drawer--open.theme--light{
+    width: 80px !important;
+}
+
+// .v-menu__content.theme--light.v-menu__content--fixed{
+//     left: 5%;
+//     .drops.v-card.v-sheet.theme--light{
+//         max-width: 350px;
+//     }
+// }

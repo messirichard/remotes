@@ -1,0 +1,78 @@
+.form-modal-add-widgetcoll {
+    label {
+        color: #3f4047;
+        font-weight: 400;
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    input {
+        height: 40px;
+    }
+}
+
+
+.form-modal-add-widgetcoll-bottom {
+    // margin-top: 30px;
+
+    label {
+        color: #3f4047;
+        font-weight: 400;
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    input {
+        height: 40px;
+    }
+}
+
+.input-image-adds-widget {
+    .v-input__control {
+        display: none;
+    }
+}
+
+.v-input.input-image-adds-widget.theme--light.v-text-field.v-text-field--is-booted.v-text-field--placeholder.v-file-input{
+    .v-input__prepend-outer {
+        button {
+            font-size: 75px;
+            top: 240px;
+            margin: 0 auto;
+            text-align: center;
+            display: block;
+            position: relative;
+            left: 165px;
+        }
+    }
+
+}
+
+.v-card.v-sheet.theme--light {
+    width: 100%;
+}
+
+.row.fill-height .v-card__title {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.row.fill-height .v-card__title .v-btn--icon.v-size--default {
+    width: 28px;
+    height: 28px;
+}
+
+.v-card__text.grey.lighten-4 .row {
+    padding: 0 16px;
+}
+
+.v-card.v-sheet.theme--light .v-card__title {
+    padding: 5px;
+}
+
+.v-card.v-sheet.theme--light .v-card__title .title-box {
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+}

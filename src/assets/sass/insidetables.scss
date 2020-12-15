@@ -1,0 +1,34 @@
+.all-tables-apis {
+    background-color: #ffffff;
+    margin-top: 20px;
+
+    .head-api {
+        padding-left: 20px;
+
+        h3 {
+            align-items: center;
+            font-size: 1.3rem;
+            font-weight: 500;
+            font-family: Roboto;
+            margin: 0;
+            padding: 0;
+        }
+        button.float-right.mr-5.create-button-tab.v-btn.v-btn--contained.theme--dark.v-size--default{
+    background-color: #36a3f7;
+}
+    }
+
+    hr.head-subhead.v-divider.theme--light {
+        margin: 0;
+    }
+
+    .subhead-api{
+        .dt-buttons.btn-group.float-right{
+            margin-right: 10px;
+            button.btn.btn-secondary{
+                padding: 5px 15px;
+            }
+        }
+    }
+}
+

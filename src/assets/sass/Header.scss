@@ -1,0 +1,15 @@
+header.v-sheet.v-sheet--tile.theme--dark.v-toolbar.v-app-bar.v-app-bar--clipped.v-app-bar--fixed.purple.darken-3 {
+    background-color: #ffffff !important;
+
+    .v-toolbar__content {
+        padding: 0;
+
+        .v-toolbar__title.head-nav-logo {
+            width: 256px;
+            background-color: #282A3C;
+            height: 64px;
+        }
+    }
+}
+
+
