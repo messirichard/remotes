@@ -27,6 +27,17 @@ export default {
       }).catch(error => {
         return error.response.data
       })
+    },
+    async removeDataService(context: any, payload: {id: number}) {
+      const responseData = await axios({
+        method: 'DELETE',
+        url: GetAllData.baseURL + '/devices/' + payload.id,
+        headers: GetAllData.headers,
+      }).then(response => {
+        return response.data;
+      }).catch(error => {
+        return error.response.data;
+      })
     }
   }
 }
